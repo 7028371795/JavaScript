@@ -21,3 +21,15 @@ console.log(user[newkey]);
 
 user.email="vaibhav@gmail.com";
 console.log(user);
+
+
+//create object using new key word
+
+const Car=new Object();
+console.log(Car);
+
+
+Car.name="alto",
+Car.brand="Tata",
+Car.color="black";
+console.log(Car);
