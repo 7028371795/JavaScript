@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function ChangeTitle(){
+            var h2ref=document.getElementById("title");
+            var pref=document.getElementById("content");
+
+            h2ref.innerText="DOM Manipulate By JavaScript";
+            pref.innerText="This is the Html <p> tag manipulate by js";
+        }
+    </script>
+</head>
+<body>
+    <h1 id="title">Document of Html</h1>
+    <p id="content">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde aspernatur maxime, ab delectus maiores ut id accusantium atque, adipisci cupiditate qui dolorem! Quibusdam necessitatibus sed molestiae sint itaque? Esse, expedita!</p>
+    <button onclick="ChangeTitle()">Change the Content</button>
+</body>
+</html> 
